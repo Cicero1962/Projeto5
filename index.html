@@ -10,16 +10,16 @@
 <body>
     <main>
         <header>
-            <h1>Curso de Tabelas</h1>
+           
         </header>
-        <table>
+        <table id="tabela">
             <caption>
                 Unidades Federativas do Brasil
             </caption>
             <thead>
                 <tr>
                     <th>Posição</th>
-                    <th scope="col" style="width: 180px;">Estados</th>
+                    <th scope="col" style="width: 200px;">Estados</th>
                     <th>População</th>
                     <th>% da população total</th>
                 </tr>
@@ -187,7 +187,17 @@
                     <td></td>
                     <td></td></tr>
             </tbody>
-            <tfoot></tfoot>
+            <aside id="lateral">
+                <img src="imagen/450px-Brazilian_States_by_Population_(2018).svg.png" alt="">
+            </aside>
+            <tfoot>
+                <tr>
+                    <th class="rodape" scope="row" colspan="2">
+                        Total de Habitantes
+                    </th>
+                    <td class="rodape" colspan="2">0000</td>
+                </tr>
+            </tfoot>
         </table>
     </main>
 </body>

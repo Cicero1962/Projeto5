@@ -9,8 +9,12 @@ main{
 header{
     width: 50%;
     background-color: rgb(56, 53, 53);
-    text-align: center;
+}
+#tabela h1{
+    text-align: right;
     color: white;
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
 table{
     position: relative;
@@ -39,4 +43,13 @@ tbody td{
 }
 tbody tr:nth-child(even){
     background-color: rgb(175, 172, 172);
+} 
+tfoot th,td{
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+.rodape{
+    background-color: rgb(56, 53, 53);
+    color: white;
 }
